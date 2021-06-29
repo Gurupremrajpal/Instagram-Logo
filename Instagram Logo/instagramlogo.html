@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		*{
+			margin:  0;
+			padding:  0;
+			box-sizing: border-box;
+			font-family: 'Rancho', cursive;
+		}
+
+		html{
+			font-size: 62.5%;
+		}
+
+		.center_div{
+			width: 100vw;
+			height: 100vh;
+			background-color: #000;
+			display: grid;
+			place-items:  center;
+		}
+
+		.instaLogo{
+			width: 15rem;
+			height: 15rem; //1rem =10px
+
+			/*https://codepen.io/thomasrye/pen/VaRoYv (instagram logo color)*/
+
+			background: #d6249f;
+ 			background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  			box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+			border-radius: 3rem;
+			display: grid;
+			place-items:  center;
+		}
+
+		.squareLayer{
+			width: 11rem;
+			height: 11rem;
+			border: 1rem soldi #fff;
+			background-color: transparent;
+			border: 1rem solid #fff;
+			border-radius: 3rem;
+			position: relative;
+			display: grid;
+			place-items:  center;
+		}
+
+		.squareLayer::before{
+			content: "";
+			width: 3.8rem;
+			height: 3.8rem;
+			background-color: transparent;
+			border: 1rem solid #fff;
+			border-radius: 50%;
+			position: absolute;   
+		}
+
+		.squareLayer::after{
+			content: "";
+			width: 1rem;
+			height: 1rem;
+			background-color: #fff;
+			border: .15rem solid #fff;
+			border-radius: 50%;
+			position: absolute;  
+			top: 1rem;
+			right: .8rem;
+		}
+
+		.text{
+			color: white;
+			position: absolute;
+			top: 150px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="center_div">
+		<div class="instaLogo">
+			<div class="squareLayer">
+				<div class="text">
+					<h1> By:- Guruprem Rajpal
+					</h1>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
