@@ -1,6 +1,6 @@
 # Instagram-Logo
 <br>
-<img src="soundwave.gif"> </img>
+<img src="InstagramLogo.png"> </img>
 <br>
 <a href="https://gurupremrajpal.github.io/Instagram-Logo/Instagram%20Logo/instagramlogo.html"> Website </a>
 <br>
